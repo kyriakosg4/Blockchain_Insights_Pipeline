@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: blockchain_pipe
+    schema: public
+    tables:
+      - name: raw_blocks
+      - name: raw_transactions
+      - name: raw_prices
