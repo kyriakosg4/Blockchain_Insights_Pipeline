@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+*.env
+
+# Airflow runtime folders (DO NOT COMMIT)
+airflow/
+airflow_docker/
+logs/
+plugins/
+
+# Data files (CSV, Parquet, etc.)
+data/
+*.csv
+
+# dbt generated folders
+chainpulse_dbt/target/
+chainpulse_dbt/logs/
+chainpulse_dbt/dbt_packages/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Connection dumps, logs
+*.log
+*.sql
+*.dump
